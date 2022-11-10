@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.profile{
+  padding: 50px;
+  padding-right: 90px;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.profile--pic{
+  max-width: 300px;
+  height: auto;
+}
+
+.profile--header--content{
+  width: 400px;
+}
+
+.profile--header{
+  font-size: 48px;
+
+}
+
+.profile--text {
+  font-size: 30px;
+  margin-bottom: 20%;
+
+}
+
+.button--socials {
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.social--icon{
+  margin: 0 20px;
+}
+
+.projects h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
+.projects p {
+  font-size: 18px;
+  line-height: 130%;
+  max-width: 50ch;
+}
+
+.projects__cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projects__card {
+  max-width: 350px;
+  padding: 20px;
+  border: 3px solid #00eaff;
+  border-radius: 8px;
+}
+
+.projects__card h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.projects__card p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.projects__card img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 10px;
+
+  border-radius: 8px;
+}
+
+.projects__card .button {
+  margin: 10px 5px 0;
+}
+
+.about h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 130%;
+  max-width: 75ch;
+}
+
+.experience h2 {
+  font-size: 42px;
+  margin: 25px auto;
+}
+
+.experience ul {
+  margin: 0 0 10px 50px;
+}
+
+.experience li {
+  font-size: 18px;
+  line-height: 130%;
+  margin: 15px auto;
+}
+
+.button {
+  display: inline-block;
+  background: #00eaff;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 8px;
+  color:#FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+
+.button:hover {
+  background: #0088BB;
+  color: #FFFFFF;
+}
