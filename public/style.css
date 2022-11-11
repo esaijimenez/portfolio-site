@@ -14,8 +14,8 @@ body {
 
 .profile{
   padding: 50px;
-  padding-right: 90px;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   text-align: right;
   display: flex;
@@ -97,7 +97,6 @@ body {
   width: 100%;
   height: auto;
   margin: 20px 0 10px;
-
   border-radius: 8px;
 }
 
