@@ -10,7 +10,7 @@ export default function Header() {
             <img src={ProfilePic} alt="" className="profile--pic" />
             <div className="profile--header--content">
                 <h1 className="profile--header"> Esai Jimenez</h1>
-                <p className="profile--text"> Blockchain Developer </p>
+                <p className="profile--text"> Software Developer </p>
 
                 <div className="button--socials">
                     <a href="https://github.com/esaijimenez" target="_blank" className="social--icon">

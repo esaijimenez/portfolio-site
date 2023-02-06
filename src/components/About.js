@@ -5,9 +5,9 @@ export default function About() {
         <section className='about'>
             <h2>About Me</h2>
             <p>
-                Senior college student with 3+ years of foundational knowledge in programming languages and concepts.
-                Eager to learn more about the intricacies of the crypto world and obtain hands-on experience in this rapidly growing industry.
-                Highly self-motivated developer with strong knowledge in crypto.
+                Highly motivated and enthusiastic senior software engineering student with over 3 years of theoretical experience in programming languages and concepts.
+                Possesses a strong foundation in software development principles, eager to gain hands-on experience and apply knowledge to real-world projects.
+                Committed to continuously learning and expanding skill set in the ever-evolving field of software engineering.
             </p>
         </section>
     );

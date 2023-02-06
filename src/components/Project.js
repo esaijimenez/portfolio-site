@@ -1,7 +1,7 @@
 import React from "react";
-import project1 from '../images/comingsoon.jpg';
+import chess from '../images/puzzle.jpg';
 import project2 from '../images/comingsoon.jpg';
-import portfolio from '../images/pdw.png';
+import portfolio from '../images/jimenez.jpg';
 
 export default function Project() {
     return (
@@ -11,14 +11,13 @@ export default function Project() {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Coming Soon...</h3>
-                    <img src={project1} alt="Project 1 Page" />
-                    <p>This is where my first project is going to live
-                        whenever it is created.
+                    <h3>Checkmate</h3>
+                    <img src={chess} alt="Project 1 - Checkmate" />
+                    <p><b>Checkmate</b>, a way for users to practice and develop their chess skills in an interactive way through chess puzzles.
                     </p>
 
                     <a href="https://esaijimenez.on.fleek.co/" target="_blank" className="button">Site</a>
-                    <a href="https://esaijimenez.on.fleek.co/" target="_blank" className="button">Code</a>
+                    <a href="https://github.com/esaijimenez/Checkmate" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">

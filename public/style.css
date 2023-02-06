@@ -12,27 +12,29 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-.profile{
+.profile {
   padding: 50px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  text-align: right;
+  text-align: center;
   display: flex;
   flex-direction: row;
 
 }
 
-.profile--pic{
+.profile--pic {
   max-width: 300px;
   height: auto;
 }
 
-.profile--header--content{
+.profile--header--content {
   width: 400px;
+  position: relative;
+  left: 50px;
 }
 
-.profile--header{
+.profile--header {
   font-size: 48px;
 
 }
@@ -44,15 +46,12 @@ body {
 }
 
 .button--socials {
-  position: relative;
-  bottom: 20px;
-  left: 50px;
   flex-direction: row;
   align-items: center;
   text-align: center;
 }
 
-.social--icon{
+.social--icon {
   margin: 0 20px;
 }
 
@@ -78,7 +77,7 @@ body {
 .projects__card {
   max-width: 350px;
   padding: 20px;
-  border: 3px solid #00eaff;
+  border: 3px solid #000000;
   border-radius: 8px;
 }
 
@@ -115,16 +114,16 @@ body {
   max-width: 75ch;
 }
 
-.experience h2 {
+.education h2 {
   font-size: 42px;
   margin: 25px auto;
 }
 
-.experience ul {
+.education ul {
   margin: 0 0 10px 50px;
 }
 
-.experience li {
+.education li {
   font-size: 18px;
   line-height: 130%;
   margin: 15px auto;
@@ -132,11 +131,11 @@ body {
 
 .button {
   display: inline-block;
-  background: #00eaff;
+  background: #000000;
   padding: 15px 50px;
   border: none;
   border-radius: 8px;
-  color:#FFFFFF;
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
